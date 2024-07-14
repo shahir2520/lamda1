@@ -5,5 +5,12 @@ def  febo(i):
         return 1
     else:
         return febo(i-2) + febo(i-1)
-for i in range (13):
-    print(febo(i))
+for x in range(10):
+    print(febo(x))
+
+
+
+
+
+
+
